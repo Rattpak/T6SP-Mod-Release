@@ -3,6 +3,10 @@
 ## How to use
 Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the Black Ops II root folder. Run the launcher executable
 
+## Info
+- **T6SP-Mod Discord Server**: https://discord.gg/Wbb5YMZrHG
+- **Keep Track of Development**: https://trello.com/b/WDZknymV/t6sp-mod-tester-feedback
+
 ## Features
 - Internal Developer Console
 - External Developer Console
@@ -18,28 +22,36 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - This mod does **NOT** bypass any Steam checks
 
 ## Reimplemented Commands / DVARs
-- **noclip**
-- **god**
-- **cg_thirdperson**
-- **r_fog**
-- **fx_enable**
-- **dvardump**
-- **listassetpool**
-- **version**
+- `noclip`
+- `god`
+- `cg_thirdperson`
+- `r_fog`
+- `fx_enable`
+- `dvardump`
+- `listassetpool`
+- `version`
 
 ## Custom Commands
-- **dvardump_v** - A verbose dvardump
-- **dumpLua** - Dump all loaded LUA files
-- **dumpRawfile** - Dump all loaded Rawfiles
-- **savepos** - Save current player position
-- **loadpos** - Load saved player position
-- **unlink** - Unlink the player for any active link
+- `dvardump_v` - A verbose dvardump
+- `dumpLua` - Dump all loaded LUA files
+- `dumpRawfile` - Dump all loaded Rawfiles
+- `savepos` - Save current player position
+- `loadpos` - Load saved player position
+- `unlink` - Unlink the player for any active link
+- `saveassetpool` Like listassetpool, but saves results to assetpool.txt
+- `widget add <dvar name>`  Create an on-screen widget for the specified DVAR
+- `widget remove <dvar name>`  Remove the on-screen widget for the specified DVAR
+- `widget clear`  Remove all on-screen widgets
+- `widget hideall`  Hide all on-screen widgets
+- `widget showall`  Show all on-screen widgets
+
 
 ## Custom DVARs
-- **g_dumpscripts** \<1 or 0\> - Dump scripts on next map load
-- **g_friction** \<float\> - Adjust friction
-- **r_drawskybox** \<1 or 0\> - Toggle skybox rendering
-- **r_drawtransparent** \<1 or 0\> - Toggle transparent rendering
+- `g_dumpscripts` \<1 or 0\> - Dump scripts on next map load
+- `g_friction` \<float\> - Adjust friction
+- `r_drawskybox` \<1 or 0\> - Toggle skybox rendering
+- `r_drawtransparent` \<1 or 0\> - Toggle transparent rendering
+- `con_maxSearchResults` \<2 to 32\> - How many commands will show in search box
 
 ## How to modify game assets
 (Only gsc/csc and non-internal rawfiles at the moment)
@@ -49,9 +61,3 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - Example: root/spmod/vision/sp_front_end_menu.vision
 
 
-## Troubleshooting
-- **Launcher Not Working**: Sometimes steam cloud may get an error and prevent the game from launching properly. In this case you can just run the mod again. If the issue persists, disable steam cloud sync for Black Ops II: Campaign or leave a message in the Discord Server
-
-## Other Info
-- **T6SP-Mod Discord Server**: https://discord.gg/Wbb5YMZrHG
-- **Keep Track of Development**: https://trello.com/b/WDZknymV/t6sp-mod-tester-feedback
