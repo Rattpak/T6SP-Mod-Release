@@ -11,7 +11,8 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - Internal Developer Console
 - External Developer Console
 - DVARs Unlocked
-- GSC/CSC Overriding
+- GSC/CSC Dumping and Overriding
+- Mapent Dumping and Overriding
 - Non-Internal Rawfile Overriding
 - Reimplemented Stripped Commands and Features
 - Custom Commands and DVARs
@@ -48,16 +49,18 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 
 ## Custom DVARs
 - `g_dumpscripts` \<1 or 0\> - Dump scripts on next map load
+- `g_dumpmapents` \<1 or 0\> - Dump mapents on next map load
 - `g_friction` \<float\> - Adjust friction
 - `r_drawskybox` \<1 or 0\> - Toggle skybox rendering
 - `r_drawtransparent` \<1 or 0\> - Toggle transparent rendering
 - `con_maxSearchResults` \<2 to 32\> - How many commands will show in search box
 
 ## How to modify game assets
-(Only gsc/csc and non-internal rawfiles at the moment)
+(Only gsc/csc, mapens, and non-internal rawfiles at the moment)
 - Place assets to override into root/spmod/\<path of asset to override\>
 - Example: root/spmod/maps/blackout_util.gsc
 - Example: root/spmod/_load.gsc
+- - Example: root/spmod/maps/frontend.mapents
 - Example: root/spmod/vision/sp_front_end_menu.vision
 
 
