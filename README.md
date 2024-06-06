@@ -60,7 +60,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - Place assets to override into root/spmod/\<path of asset to override\>
 - Example: root/spmod/maps/blackout_util.gsc
 - Example: root/spmod/_load.gsc
-- - Example: root/spmod/maps/frontend.mapents
+- Example: root/spmod/maps/frontend.mapents
 - Example: root/spmod/vision/sp_front_end_menu.vision
 
 
