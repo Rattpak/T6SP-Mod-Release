@@ -68,6 +68,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
   - Example: root/spmod/_load.gsc
   - Example: root/spmod/maps/frontend.mapents
   - Example: root/spmod/vision/sp_front_end_menu.vision
+
 (Only gsc/csc at the moment)
 - Place custom assets in root/spmod/custom/\<path to custom asset\>
   - Example: root/spmod/custom/maps/modmenu.gsc
