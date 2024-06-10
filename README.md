@@ -35,6 +35,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `listassetpool`
 - `version`
 - `bind`/`unbind`
+- `player_sustainAmmo`
 
 ## Custom Commands
 - `dvardump_v` - A verbose dvardump
