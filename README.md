@@ -63,6 +63,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `sv_bouncescale` \<Float\> The scale of the bounce
 
 ## How to modify game assets
+### Overriding Game Assets
 (Only gsc/csc, mapens, and non-internal rawfiles at the moment)
 - Place assets to override into root/spmod/\<path of asset to override\>
   - Example: root/spmod/maps/blackout_util.gsc
@@ -70,6 +71,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
   - Example: root/spmod/maps/frontend.mapents
   - Example: root/spmod/vision/sp_front_end_menu.vision
 
+### Loading Custom Assets
 (Only gsc/csc at the moment)
 - Place custom assets in root/spmod/custom/\<path to custom asset\>
   - Example: root/spmod/custom/maps/modmenu.gsc
