@@ -11,6 +11,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - Internal Developer Console
 - External Developer Console
 - DVARs Unlocked
+- Discord Rich Presence
 - Custom GSC/CSC loading
 - GSC/CSC Dumping and Overriding
 - Mapent Dumping and Overriding
@@ -36,11 +37,13 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `version`
 - `bind`/`unbind`
 - `player_sustainAmmo`
+- `logfile`
 
 ## Custom Commands
 - `dvardump_v` - A verbose dvardump
 - `dumpLua` - Dump all loaded LUA files
 - `dumpRawfile` - Dump all loaded Rawfiles
+- `dumpStringTables` - Dump all loaded String Tables
 - `savepos` - Save current player position
 - `loadpos` - Load saved player position
 - `unlink` - Unlink the player for any active link
@@ -61,6 +64,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `con_maxSearchResults` \<2 to 32\> - How many commands will show in search box
 - `sv_enableBounces`\<0 or 1\> Re-enables the bounce bug from COD4
 - `sv_bouncescale` \<Float\> The scale of the bounce
+- `noclipSprintScale` \<Float\> The scale of sprint speed in noclip
 
 ## How to modify game assets
 ### Overriding Game Assets
