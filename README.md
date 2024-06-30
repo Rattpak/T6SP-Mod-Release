@@ -53,6 +53,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `widget clear`  Remove all on-screen widgets
 - `widget hideall`  Hide all on-screen widgets
 - `widget showall`  Show all on-screen widgets
+- `removeStaticModels` Removes all static models from the map
 
 
 ## Custom DVARs
@@ -65,6 +66,11 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `sv_enableBounces`\<0 or 1\> Re-enables the bounce bug from COD4
 - `sv_bouncescale` \<Float\> The scale of the bounce
 - `noclipSprintScale` \<Float\> The scale of sprint speed in noclip
+- `r_drawPathnodes` \<0 - 2\> Draw pathnodes onto screen
+- `r_drawStaticModelInfo` \<0 - 1\> Draw nearby static model info
+- `r_drawReflectionProbes` \<0 - 2\> Draw reflection probes onto screen
+- `r_drawPrimaryLights` \<0 - 1\> Draw primary lights onto screen
+- `lui_developer` \<0 - 1\> Prints LUI developer info to console
 
 ## How to modify game assets
 ### Overriding Game Assets
