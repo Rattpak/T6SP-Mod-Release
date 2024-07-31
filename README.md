@@ -38,6 +38,8 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `bind`/`unbind`
 - `player_sustainAmmo`
 - `logfile`
+- `cg_LaserForceOn`
+- `cg_drawVersion`
 
 ## Custom Commands
 - `dvardump_v` - A verbose dvardump
@@ -53,7 +55,6 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `widget clear`  Remove all on-screen widgets
 - `widget hideall`  Hide all on-screen widgets
 - `widget showall`  Show all on-screen widgets
-- `removeStaticModels` Removes all static models from the map
 
 
 ## Custom DVARs
@@ -71,6 +72,9 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `r_drawReflectionProbes` \<0 - 2\> Draw reflection probes onto screen
 - `r_drawPrimaryLights` \<0 - 1\> Draw primary lights onto screen
 - `lui_developer` \<0 - 1\> Prints LUI developer info to console
+- `r_drawStaticModels` \<0 - 1\> Toggles the rendering of static models
+- `phys_enable` \<0 - 1\> Toggle the rigidbody physics system
+- `phys_debug` \<0 - 1\> Toggle the rigidbody physics system debugging info
 
 ## How to modify game assets
 ### Overriding Game Assets
