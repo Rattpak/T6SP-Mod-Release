@@ -58,6 +58,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 
 
 ## Custom DVARs
+- `pc_aim_assist` \<1 or 0\> - Enable gamepad aim assist
 - `g_dumpscripts` \<1 or 0\> - Dump scripts on next map load
 - `g_dumpmapents` \<1 or 0\> - Dump mapents on next map load
 - `g_friction` \<Float\> - Adjust friction
