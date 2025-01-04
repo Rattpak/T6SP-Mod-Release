@@ -79,7 +79,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 
 ## How to modify game assets
 ### Overriding Game Assets
-(Only gsc/csc, mapens, and non-internal rawfiles at the moment)
+(Only gsc/csc, mapents, and non-internal rawfiles at the moment)
 - Place assets to override into root/spmod/\<path of asset to override\>
   - Example: root/spmod/maps/blackout_util.gsc
   - Example: root/spmod/_load.gsc
