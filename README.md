@@ -10,6 +10,7 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 ## Features
 - Internal Developer Console
 - External Developer Console
+- Override Game Textures
 - DVARs Unlocked
 - Discord Rich Presence
 - Custom GSC/CSC loading
@@ -30,6 +31,8 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `noclip`
 - `god`
 - `cg_thirdperson`
+- `r_fullbright`
+- `r_debugShader`
 - `r_fog`
 - `fx_enable`
 - `dvardump`
@@ -40,6 +43,8 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `logfile`
 - `cg_LaserForceOn`
 - `cg_drawVersion`
+- `cg_brass`
+- `clientinfo`
 
 ## Custom Commands
 - `dvardump_v` - A verbose dvardump
@@ -76,13 +81,15 @@ Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the
 - `r_drawStaticModels` \<0 - 1\> Toggles the rendering of static models
 - `phys_enable` \<0 - 1\> Toggle the rigidbody physics system
 - `phys_debug` \<0 - 1\> Toggle the rigidbody physics system debugging info
+- `r_enablePortals` \<0 - 1\> Toggle portals culling BSP geometry
 
 ## How to modify game assets
 ### Overriding Game Assets
-(Only gsc/csc, mapents, and non-internal rawfiles at the moment)
+(Only images, gsc/csc, mapents, and non-internal rawfiles at the moment)
 - Place assets to override into root/spmod/\<path of asset to override\>
   - Example: root/spmod/maps/blackout_util.gsc
   - Example: root/spmod/_load.gsc
+  - Example: root/spmod/images/logo_small_cod5.iwi
   - Example: root/spmod/maps/frontend.mapents
   - Example: root/spmod/vision/sp_front_end_menu.vision
 
