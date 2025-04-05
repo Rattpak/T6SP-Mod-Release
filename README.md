@@ -1,7 +1,7 @@
 # T6SP-Mod | Black Ops II Singleplayer Client Modification
 
 ## How to use
-Download the latest T6SP-Mod-Launcher.exe and t6sp-mod.dll and place them in the Black Ops II root folder. Run the launcher executable
+Download the latest `T6SP-Mod-Launcher.exe` and `t6sp-mod.dll` and place them in the Black Ops II root folder. Run the launcher executable
 
 ## Info
 - **T6SP-Mod Discord Server**: https://discord.gg/Wbb5YMZrHG
